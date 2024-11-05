@@ -8,6 +8,20 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Malichis Group',
   description: 'Building a Better Future Together',
+  icons: {
+    icon: [
+      { url: '/malichisgroup-icon.png', sizes: '16x16', type: 'image/png' },
+      { url: '/malichisgroup-icon.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/malichisgroup-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+    other: [
+      { url: '/malichisgroup-icon.png', sizes: '192x192', type: 'image/png' },
+      { url: '/malichisgroup-icon.png', sizes: '512x512', type: 'image/png' },
+    ],
+  },
+  manifest: '/site.webmanifest',
 };
 
 export default function RootLayout({

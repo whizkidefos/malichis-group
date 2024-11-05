@@ -44,7 +44,7 @@ export default function ContactPage() {
               <div className="space-y-12">
                 {contactInfo.map((item) => (
                   <div key={item.title} className="flex items-start">
-                    <item.icon className="h-6 w-6 text-emerald-600 mt-1" />
+                    <item.icon className="h-6 w-6 text-brand mt-1" />
                     <div className="ml-4">
                       <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
                       {item.details.map((detail) => (

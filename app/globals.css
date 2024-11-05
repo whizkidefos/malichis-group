@@ -18,10 +18,10 @@
   }
 
   .btn-primary {
-    @apply bg-emerald-600 text-white hover:bg-emerald-700 focus:ring-emerald-500;
+    @apply bg-brand text-white hover:bg-brand-700 focus:ring-brand;
   }
 
   .btn-secondary {
-    @apply bg-white text-gray-700 border-gray-300 hover:bg-gray-50 focus:ring-emerald-500;
+    @apply bg-white text-gray-700 border-gray-300 hover:bg-gray-50 focus:ring-brand;
   }
 }

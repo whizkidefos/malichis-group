@@ -1,5 +1,5 @@
 import PageHeader from '@/components/PageHeader';
-import { Sparkles, Home, Building, CheckCircle2, ArrowRight } from 'lucide-react';
+import { Sparkles, Home, Building, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
 const services = [
@@ -34,7 +34,7 @@ export default function CleaningPage() {
           <div className="grid md:grid-cols-3 gap-12">
             {services.map((service) => (
               <div key={service.title} className="text-center">
-                <service.icon className="h-12 w-12 text-emerald-600 mx-auto mb-6" />
+                <service.icon className="h-12 w-12 text-brand mx-auto mb-6" />
                 <h3 className="text-xl font-semibold mb-4">{service.title}</h3>
                 <p className="text-gray-600">{service.description}</p>
               </div>
@@ -44,7 +44,7 @@ export default function CleaningPage() {
           <div className="mt-20 text-center">
             <Link
               href="/contact"
-              className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-emerald-600 hover:bg-emerald-700 transition"
+              className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-brand hover:bg-brand-700 transition"
             >
               Get a Quote
               <ArrowRight className="ml-2 h-5 w-5" />

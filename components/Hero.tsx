@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
             Building a Better Future<br />
-            <span className="text-emerald-600">Together</span>
+            <span className="text-brand">Together</span>
           </h1>
           <p className="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
             From property management to cleaning services and community development,
@@ -17,7 +17,7 @@ export default function Hero() {
           <div className="mt-10 flex justify-center gap-4">
             <Link
               href="/contact"
-              className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-emerald-600 hover:bg-emerald-700 transition"
+              className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-brand hover:bg-brand-700 transition"
             >
               Get Started
               <ArrowRight className="ml-2 h-5 w-5" />

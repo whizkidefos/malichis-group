@@ -1,5 +1,5 @@
 import PageHeader from '@/components/PageHeader';
-import { Heart, Users, GraduationCap, Sprout, ArrowRight } from 'lucide-react';
+import { Users, GraduationCap, Sprout, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
 const initiatives = [
@@ -34,7 +34,7 @@ export default function FoundationPage() {
           <div className="grid md:grid-cols-3 gap-12">
             {initiatives.map((initiative) => (
               <div key={initiative.title} className="text-center">
-                <initiative.icon className="h-12 w-12 text-emerald-600 mx-auto mb-6" />
+                <initiative.icon className="h-12 w-12 text-brand mx-auto mb-6" />
                 <h3 className="text-xl font-semibold mb-4">{initiative.title}</h3>
                 <p className="text-gray-600">{initiative.description}</p>
               </div>
@@ -44,7 +44,7 @@ export default function FoundationPage() {
           <div className="mt-20 text-center">
             <Link
               href="/contact"
-              className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-emerald-600 hover:bg-emerald-700 transition"
+              className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-brand hover:bg-brand-700 transition"
             >
               Get Involved
               <ArrowRight className="ml-2 h-5 w-5" />

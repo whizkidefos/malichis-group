@@ -137,13 +137,13 @@ export default function ContactForm() {
       )}
 
       {status === 'success' && (
-        <div className="text-emerald-600 text-sm">Message sent successfully! We'll get back to you soon.</div>
+        <div className="text-brand text-sm">Message sent successfully! We'll get back to you soon.</div>
       )}
 
       <button
         type="submit"
         disabled={status === 'submitting'}
-        className="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-full text-white bg-emerald-600 hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500 disabled:opacity-50 disabled:cursor-not-allowed"
+        className="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-full text-white bg-brand hover:bg-brand-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500 disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {status === 'submitting' ? (
           <>

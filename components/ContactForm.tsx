@@ -132,7 +132,7 @@ export default function ContactForm() {
         />
       </div>
 
-      {status === 'error' && (
+      {status === `error` && (
         <div className="text-red-600 text-sm">{errorMessage}</div>
       )}
 

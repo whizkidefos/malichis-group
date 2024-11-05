@@ -7,7 +7,7 @@ export async function POST(request: Request) {
   try {
     const { name, email, service, message } = await request.json();
 
-    const { data, error } = await resend.emails.send({
+    const { error } = await resend.emails.send({
       from: 'Malichis Group <onboarding@resend.dev>',
       to: ['liova2273@gmail.com'],
       replyTo: email,

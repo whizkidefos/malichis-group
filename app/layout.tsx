@@ -57,9 +57,9 @@ export default function RootLayout({
                 <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
                 <ul className="space-y-2 text-gray-400">
                   <li>info@malachisgroup.com</li>
-                  <li>+1 (555) 123-4567</li>
-                  <li>123 Business Avenue</li>
-                  <li>Suite 100</li>
+                  <li>+234 806 461 0905</li>
+                  <li>Happy Land Estate</li>
+                  <li>Lekki, Lagos.</li>
                 </ul>
               </div>
             </div>

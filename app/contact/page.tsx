@@ -8,17 +8,17 @@ const contactInfo = [
   {
     icon: MapPin,
     title: 'Visit Us',
-    details: ['123 Business Avenue', 'Suite 100', 'City, State 12345'],
+    details: ['Happy Land Estate', 'Lekki', 'Lagos', 'Nigeria'],
   },
   {
     icon: Phone,
     title: 'Call Us',
-    details: ['+234 (555) 123-4567', 'Mon-Fri: 9am-6pm'],
+    details: ['+234 806 461 0905', 'Mon-Fri: 9am-6pm'],
   },
   {
     icon: Mail,
     title: 'Email Us',
-    details: ['info@malichisgroup.com', 'support@malichisgroup.com'],
+    details: ['malichisgroup@gmail.com', 'malichisproperties@gmail.com'],
   },
 ];
 

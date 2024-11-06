@@ -43,26 +43,38 @@ const galleryImages = [
   {
     src: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&q=80&w=800&h=600',
     alt: 'Community Event',
+    title: 'Community Gatherings',
+    description: 'Bringing people together for positive change',
   },
   {
-    src: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&q=80&w=800&h=600',
+    src: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=800&h=600',
     alt: 'Education Program',
+    title: 'Education Initiatives',
+    description: 'Supporting learning and growth',
   },
   {
-    src: 'https://images.unsplash.com/photo-1544027993-37dbfe43562a?auto=format&fit=crop&q=80&w=800&h=600',
+    src: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800&h=600',
     alt: 'Sustainability Initiative',
+    title: 'Environmental Programs',
+    description: 'Creating a sustainable future',
   },
   {
-    src: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&q=80&w=800&h=600',
+    src: 'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&q=80&w=800&h=600',
     alt: 'Health Program',
+    title: 'Health & Wellness',
+    description: 'Promoting community well-being',
   },
   {
-    src: 'https://images.unsplash.com/photo-1559024922-9ade05850615?auto=format&fit=crop&q=80&w=800&h=600',
+    src: 'https://images.unsplash.com/photo-1593113598332-cd59c5a3f40e?auto=format&fit=crop&q=80&w=800&h=600',
     alt: 'Volunteer Work',
+    title: 'Volunteer Programs',
+    description: 'Making a difference together',
   },
   {
-    src: 'https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?auto=format&fit=crop&q=80&w=800&h=600',
+    src: 'https://images.unsplash.com/photo-1526958097901-5e6d742d3371?auto=format&fit=crop&q=80&w=800&h=600',
     alt: 'Global Projects',
+    title: 'Global Impact',
+    description: 'Reaching communities worldwide',
   },
 ];
 

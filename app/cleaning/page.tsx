@@ -41,28 +41,40 @@ const features = [
 
 const galleryImages = [
   {
-    src: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&q=80&w=800&h=600',
+    src: 'https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?auto=format&fit=crop&q=80&w=800&h=600',
     alt: 'Professional Cleaning',
+    title: 'Expert Cleaning Services',
+    description: 'Thorough cleaning by trained professionals',
   },
   {
-    src: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800&h=600',
+    src: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&q=80&w=800&h=600',
     alt: 'Office Cleaning',
+    title: 'Commercial Solutions',
+    description: 'Maintaining pristine business environments',
   },
   {
     src: 'https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&q=80&w=800&h=600',
     alt: 'Deep Cleaning',
+    title: 'Deep Cleaning',
+    description: 'Restoring spaces to their best condition',
   },
   {
-    src: 'https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?auto=format&fit=crop&q=80&w=800&h=600',
+    src: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800&h=600',
     alt: 'Residential Cleaning',
+    title: 'Home Services',
+    description: 'Creating comfortable living spaces',
   },
   {
-    src: 'https://images.unsplash.com/photo-1596239911411-a386668649ad?auto=format&fit=crop&q=80&w=800&h=600',
+    src: 'https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=800&h=600',
     alt: 'Sanitization',
+    title: 'Sanitization',
+    description: 'Hospital-grade disinfection services',
   },
   {
-    src: 'https://images.unsplash.com/photo-1584622781867-1c5fe028804e?auto=format&fit=crop&q=80&w=800&h=600',
+    src: 'https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?auto=format&fit=crop&q=80&w=800&h=600',
     alt: 'Green Cleaning',
+    title: 'Eco-Friendly Cleaning',
+    description: 'Sustainable cleaning solutions',
   },
 ];
 

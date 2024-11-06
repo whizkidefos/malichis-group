@@ -41,28 +41,40 @@ const features = [
 
 const galleryImages = [
   {
-    src: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=800&h=600',
-    alt: 'Luxury Home Exterior',
+    src: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=800&h=600',
+    alt: 'Modern Home',
+    title: 'Luxury Residences',
+    description: 'Contemporary homes with premium finishes and amenities',
   },
   {
-    src: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800&h=600',
-    alt: 'Modern Kitchen',
+    src: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&q=80&w=800&h=600',
+    alt: 'Interior Design',
+    title: 'Designer Interiors',
+    description: 'Thoughtfully crafted spaces for modern living',
   },
   {
-    src: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&q=80&w=800&h=600',
-    alt: 'Living Room',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&q=80&w=800&h=600',
+    src: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&q=80&w=800&h=600',
     alt: 'Office Space',
+    title: 'Premium Office Spaces',
+    description: 'Professional environments designed for productivity',
   },
   {
-    src: 'https://images.unsplash.com/photo-1600573472591-ee6981cf35b6?auto=format&fit=crop&q=80&w=800&h=600',
-    alt: 'Bedroom',
+    src: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800&h=600',
+    alt: 'Commercial Building',
+    title: 'Commercial Properties',
+    description: 'Strategic locations for business success',
   },
   {
-    src: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=800&h=600',
+    src: 'https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?auto=format&fit=crop&q=80&w=800&h=600',
+    alt: 'Luxury Kitchen',
+    title: 'Modern Amenities',
+    description: 'State-of-the-art features in every property',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&q=80&w=800&h=600',
     alt: 'Building Exterior',
+    title: 'Architectural Excellence',
+    description: 'Distinctive designs that stand out',
   },
 ];
 

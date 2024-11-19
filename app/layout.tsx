@@ -56,7 +56,7 @@ export default function RootLayout({
               <div>
                 <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
                 <ul className="space-y-2 text-gray-400">
-                  <li>info@malachisgroup.com</li>
+                  <li>malachisgroup@gmail.com</li>
                   <li>+234 806 461 0905</li>
                   <li>Happy Land Estate</li>
                   <li>Lekki, Lagos.</li>

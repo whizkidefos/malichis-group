@@ -35,7 +35,7 @@ const metrics = [
   }
 ];
 
-function CountUp({ end, suffix = '', duration = 2000 }) {
+function CountUp({ end, suffix = '', duration = 2000 }: { end: number; suffix?: string; duration?: number }) {
   const [count, setCount] = useState(0);
   const countRef = useRef(0);
   const [ref, inView] = useInView({

@@ -21,7 +21,6 @@ export const metadata: Metadata = {
       { url: '/malichisgroup-icon.png', sizes: '512x512', type: 'image/png' },
     ],
   },
-  manifest: '/site.webmanifest',
 };
 
 export default function RootLayout({
@@ -31,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={inter.className} suppressHydrationWarning={true}>
         <Navbar />
         {children}
         <footer className="bg-gray-900 text-white py-12">

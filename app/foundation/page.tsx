@@ -65,7 +65,7 @@ const galleryImages = [
     description: 'Promoting community well-being',
   },
   {
-    src: 'https://images.unsplash.com/photo-1593113598332-cd59c5a3f40e?auto=format&fit=crop&q=80&w=800&h=600',
+    src: 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&q=80&w=800&h=600',
     alt: 'Volunteer Work',
     title: 'Volunteer Programs',
     description: 'Making a difference together',
